@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 //import App from './App.jsx'
-//import CountdownLightSwitch from './Componets/CountdownLightSwitch.jsx'
+import CountdownLightSwitch from './Componets/CountdownLightSwitch.jsx'
 
 
 
@@ -10,15 +10,9 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
+  <Countdown>
    
- 
-<html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
- </head>
- <body>
+  <body>
   <div class="container">
      <div class="header">
       <h1>Countdown & Light Switch</h1>
@@ -42,11 +36,10 @@ createRoot(document.getElementById('root')).render(
       </div>
       <div class="message" id="messageArea"></div>
     </div>
-  </div>
-
-  
+  </div>  
 </body>
- </html>
+
+ </Countdown> 
    
    
       
